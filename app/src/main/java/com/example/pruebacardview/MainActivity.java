@@ -26,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
         elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
         elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
         elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
+        elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
+        elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
+        elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
+        elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
+        elements.add(new listview(R.drawable.ic_foto_perfil_predeterminada, "Hola Buenos dias a todos y todas."));
 
         adaptadorLista listadapter = new adaptadorLista(elements, this);
         RecyclerView recyclerView = findViewById(R.id.RecyclerView);
